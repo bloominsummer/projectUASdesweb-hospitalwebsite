@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0072CE;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  width: 150px;
+}
+
+.search-btn {
+  background: linear-gradient(to right, #002F6C, black);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.search-btn:hover {
+  background: linear-gradient(to left, #002F6C, black);
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+  /* Media query for mobile */
+@media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide on mobile by default */
+    }
+  
+    .hamburger-menu {
+      display: flex; /* Show hamburger icon on mobile */
+    }
+  }
+  
+  header {
+    background: url("assets/25.png");
+    background-size: cover;
+    background-position: center; /* Tambahkan untuk memastikan gambar tetap terpusat */
+  }
+  
+  /* Styling untuk judul header */
+  .judulheader {
+    width: 40%;
+    padding-top: 10vh;
+    padding-left: 7vw;
+    padding-bottom: 20vh;
+  }
+  
+  .judulheader h2 {
+    font-weight: 900;
+    font-size: 2rem; /* Pastikan font-size dapat diatur */
+  }
+  
+  /* Styling untuk background biru */
+  .headerbluebg {
+    background: linear-gradient(to right, #002F6C, black);
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  /* Heading dan paragraf */
+  h2 {
+    font-size: 28px;
+    margin-top: 5px;
+  }
+  
+  p.description {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  /* Responsif untuk layar sedang */
+  @media screen and (max-width: 768px) {
+    .judulheader {
+        width: 60%; /* Lebar lebih besar untuk layar sedang */
+        padding-left: 5vw;
+    }
+  
+    .headerbluebg {
+        width: 70%; /* Sesuaikan lebar background biru */
+        font-size: 0.9rem; /* Kurangi ukuran teks */
+    }
+  
+    h2 {
+        font-size: 24px; /* Kurangi ukuran heading */
+    }
+  
+    p.description {
+        font-size: 12px; /* Sesuaikan font untuk deskripsi */
+    }
+  }
+  
+  /* Responsif untuk layar kecil */
+  @media screen and (max-width: 480px) {
+    .judulheader {
+        width: 90%; /* Lebar penuh untuk layar kecil */
+        padding-left: 3vw;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+  
+    .headerbluebg {
+        width: 90%; /* Lebar hampir penuh */
+        font-size: 0.8rem; /* Lebih kecil untuk layar kecil */
+        padding: 8px; /* Kurangi padding */
+    }
+  
+    h2 {
+        font-size: 20px; /* Ukuran heading lebih kecil */
+    }
+  
+    p.description {
+        font-size: 10px; /* Ukuran deskripsi lebih kecil */
+    }
+  }
+
+/* Header */
+.header {
+    background-color: skyblue;
+    color: #002F6C;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    position: relative; /* Mengatur posisi relatif */
+    top: -20px; /* Naikkan gambar sedikit ke atas */
+    margin-right: 5px;
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.subjudul-icon {
+  width: 3% !important;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  align-content: center;
+  object-position: center;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    margin-left: -25px;
+    color: black;
+    padding-left: 3.5vh;
+}
+
+/* Section Title */
+.section-title {
+    background-color: #004080;
+    color: #ffffff;
+    font-style: italic;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left; /* Rata tengah */
+    width: 100%; /* Sama panjang di semua section */
+}
+
+/* Content Section */
+.content-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.content-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.content-section p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8; /* Spasi antar baris lebih nyaman */
+    color: #333333;
+}
+
+.content-section ul {
+    padding-left: 20px;
+}
+
+.content-section ul li {
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+/* FOOTER */
+.bg-dark {
+  background-color: #002F6C !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.py-5 {
+  padding-bottom: 1rem !important;
+}
+
+.col-md-3 img {
+  height: 7vh;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  transform: background 0.3 ease;
+}
+
+.col-md-3 img:hover {
+  background: linear-gradient(135deg, #002F6C, black);
+}
+
+.list-unstyled.d-flex a {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.list-unstyled.d-flex a:last-child {
+  margin-right: 0;
+}
+
+.list-unstyled a {
+  text-decoration: none !important;
+  color: white;
+  margin-left: 10px;
+}
+
+.list-unstyled a:hover {
+  color: skyblue;
+}
+
+.ratakiri{
+  margin-left: 0 !important;
+}
+
+.col-md-3 h5 {
+  font-weight: 600;
+}
+
+.me-3 i {
+  font-size: 1.5rem;
+}
+
+.me-3 i:hover {
+  color: skyblue;
+}
+
+.footercopy {
+  text-align: center;
+  color: white;
+  padding-top: 0;
+}
+
+.footercopy hr {
+  padding-bottom: 0px;
+  margin-block-end: 0px;
+}
+
+.footercopy h6 {
+  font-size: 14px;
+  padding: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesusun.css">
+    <link rel="icon" href="https://jec.co.id/assets/img/jec-logo.png" type="image/png">
+    <title>JEC Eye Care</title>
+    
+</head>
+<body>
+    <nav class="navbar sticky">
+        <div class="logo">
+            <img src="https://jec.co.id/assets/img/jec-logo.png" alt="JEC Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Index.html">Beranda</a></li>
+            <li><a href="Index.html#service-section">Layanan Kami</a></li>
+            <li><a href="lokasijec.html">Lokasi JEC</a></li>
+            <li><a href="mitrakami.html">Mitra Kami</a></li>
+            <li><a href="tentangjec.html">Tentang JEC</a></li>
+            <li><a href="Contact us.html">Kontak JEC</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search..." class="search-input">
+            <button class="search-btn">Search</button>
+        </div>
+    </nav>
+    
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+      </nav>
+    
+      
+    
+      <script>
+        // Toggle mobile menu visibility when hamburger is clicked
+        document.getElementById('hamburger-menu').addEventListener('click', function() {
+          const navLinks = document.getElementById('nav-links');
+          navLinks.classList.toggle('mobile');
+        });
+      </script>
+
+<section class="hero bg-primary text-white py-5">
+    <div class="container position-relative h-100">
+
+      <div class="hero-text position-absolute start-0 top-50 translate-middle-y">
+        <h1 class="fw-bold">See The World Clearly with Expert Eye Care</h1>
+        <h6 class="mt-3">
+          Setiap mata memiliki cerita unik, dan kami di sini untuk mendengarkan, 
+          memahami, dan memberikan perawatan yang sepenuhnya disesuaikan untuk Anda.
+        </h6>
+        
+      </div>
+  
+      <!-- Shapes tetap di tengah -->
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="shapes">
+          <a href="caridokter.html" class="shape">
+            <img src="assets/image-0.png" alt="Cari Dokter">
+            <span>Cari Dokter</span>
+          </a>
+          <a href="#" class="shape">
+            <img src="assets/vector.svg" alt="Cari Rumah Sakit/Klinik">
+            <span>Cari Rumah Sakit</span>
+          </a>
+          <a href="#service-section" class="shape">
+            <img src="assets/image-61.png" alt="Cari Layanan">
+            <span>Cari Layanan</span>
+          </a>
+          <a href="#" class="shape">
+            <img src="assets/image-63.png" alt="LASIK">
+            <span>LASIK</span>
+          </a>
+          <a href="Layanankatarak.html" class="shape">
+            <img src="assets/group-114.svg" alt="FLACS">
+            <span>FLACS</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+    <!-- Stats Section -->
+    <section class="stats py-4" style="background-color: #0e3aa0;">">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>15+</h2>
+                    <p>Rumah Sakit di Seluruh Indonesia</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>7.5K+</h2>
+                    <p>Tenaga Medis</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>3.76M+</h2>
+                    <p>Pasien Dilayani</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>40+</h2>
+                    <p>Mitra Asuransi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/Photo - home.png" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold">We Provide Exceptional <span class="text-primary">Eye Care & World-Class Facilities</span></h2>
+                    <p class="mt-4">JEC (Jakarta Eye Center) menghadirkan perawatan mata terbaik dengan teknologi terkini, fasilitas canggih, dan layanan yang berfokus pada kebutuhan Anda.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Dokter Spesialis Berpengalaman</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Teknologi Diagnostik Terkini</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Perawatan yang Nyaman & Ramah</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Penyembuhan yang Dipersonalisasi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="service-section" id="service-section">
+        <div class="section-header">
+
+            <h2>Our Service</h2>
+            <p>Harbor Health Anchored in Care </p>
+              <p>and Commitment</p>
+        </div>
+    
+        <div class="container" id="service-container">
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-card">
+                        <img src="assets/Katarak.png" alt="Katarak Icon">
+                        <h3>Layanan Katarak</h3>
+                        <p>Operasi modern untuk memulihkan penglihatan</p>
+                        <a href="Layanankatarak.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-card">
+                        <img src="assets/Gloukoma.png" alt="Glaukoma Icon">
+                        <h3>Layanan Glaukoma</h3>
+                        <p>Perawatan untuk mencegah kebutaan akibat tekanan mata</p>
+                        <a href="Glukoma.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-card">
+                        <img src="assets/Gloukoma.png" alt="Uveitis Icon">
+                        <h3>Layanan Uveitis</h3>
+                        <p>Diagnosis dan pengobatan peradangan uvea</p>
+                        <a href="#service-section" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-card">
+                        <img src="assets/Katarak.png" alt="Children Eye Icon">
+                        <h3>Layanan Children Eye</h3>
+                        <p>Solusi khusus untuk kesehatan mata anak</p>
+                        <a href="#service-section" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="read-more-section">
+                <a href="#service-section">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="overlay-container">
+        <img src="assets/rectangle-45.png" class="img-fluid ummahiddah" alt="Background Image">
+        <div style="padding-left: 5px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);" class="overlay-subtext"><h5><b>Cerita   #BersamaJEC</b></h5></div>
+        <div style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);" class="overlay-text">Perjuangan Ummah Hiddah Melawan Glaukoma</div>
+        <div class="overlay-button">
+          <a href="testimoni.html" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+        
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });</script>
+
+<style>
+    /* Styling Card */
+    
+    .hospital-section {
+      background-color: #f9fafc;
+    }
+    
+    /* Text Styling */
+    .text-primary {
+      color: #0d6efd !important;
+    }
+    
+    h1 {
+      font-size: 2.0rem;
+      line-height: 1.3;
+    }
+    
+    .photo-card {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      height: 350px; /* Menambahkan tinggi card */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .photo-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .photo-card .card-img {
+      height: 100%; /* Membuat gambar memenuhi card */
+      object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+      filter: brightness(75%);
+      transition: filter 0.3s ease;
+    }
+    
+    .photo-card:hover .card-img {
+      filter: brightness(90%);
+    }
+    
+    .card-img-overlay {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+      color: white;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; /* Konten tetap di bawah */
+      transition: background 0.3s ease;
+    }
+    
+    .photo-card:hover .card-img-overlay {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    }
+    
+    .card-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2rem; /* Ukuran teks lebih besar */
+      margin-bottom: 0;
+    }
+    
+    .text-muted {
+      font-size: 0.9rem;
+    }
+    
+    
+      </style>
+    <body>
+      <section class="hospital-section py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Teks Kiri -->
+            <div class="col-md-4">
+              <div class="d-flex align-items-center mb-2">
+                <!-- Icon -->
+                <span class="fw-bold text-primary">Testimoni</span>
+              </div>
+              <h1 class="fw-bold">Where Experience Meets <span class="text-primary">Compassionate Care</span></h1>
+              <p>
+                Kami berkomitmen untuk memberikan pelayanan kesehatan unggulan yang mengutamakan integritas, profesionalisme, dan dedikasi.
+              </p>
+            </div>
+    
+            <!-- Foto 3 Berjejer -->
+            <div class="col-md-8">
+              <div class="row g-3">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                  <div class="card photo-card border-0">
+                    <img src="assets/rectangle-34.png" class="card-img" alt="IVF Program">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                      <span class="text-muted small"></span>
+                      <h5 class="card-title fw-bold">Sentuhan Kasih <br> dalam Pelayanan</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card photo-card border-0">
+                    <img src="assets/Rectangle 113.png" class="card-img" alt="Kidney Transplant">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                      <span class="text-muted small"></span>
+                      <h5 class="card-title fw-bold">Keahlian <br> Profesional</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card photo-card border-0">
+                    <img src="assets/rectangle-111.png" class="card-img" alt="PCI Procedures">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                      <span class="text-muted small"></span>
+                      <h5 class="card-title fw-bold">Mata Sehat,<br>Masa Depan Cerah</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- End of Photo Grid -->
+          </div>
+        </div>
+    
+        
+    
+        
+      </section>
+    
+      <!-- Bootstrap JS Bundle -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>     
+
+<!--DOKTER-->
+<div style="padding-top: 10vh" class="container-subjudul">
+            <div class="subjudul">
+                <img class="subjudul-icon" src="assets/subjudul-icon.png">
+                <h6 class="sub-h6">Meet Our Doctors</h6>
+            </div>
+            <div class="text-center">
+                <h3>Skilled Hands for Your Vision</h3>
+                <p style="width: 60vw">Dokter ahli kami siap memberikan perawatan mata terbaik untuk menjaga penglihatan
+                    Anda.</p>
+            </div>
+        </div>
+
+        <div class="containerbox">
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- Doctor 1 -->
+                    <div class="col-md-4">
+                            <div class="card doctor-card">
+                                <img src="https://webp.jec.co.id/upload/Dr.%20Ferdiriva%20Hamzah,%20SpM(K)-3639252466.jpg"
+                                    alt="Foto Dokter">
+                                <div class="doctor-info">
+                                    <h5 class="card-title tblue">Dr. Ferdiriva Hamzah, SpM(K)</h5>
+                                    <p class="card-text">LASIK , Vitreoretina</p>
+                                </div>
+                                <div class="doctor-actions">
+                                    <button class="btn btn-secondary" onclick="toggleSchedule(this)">Lihat
+                                        Jadwal</button>
+                                    <button class="btn btn-primary"
+                                        onclick="openAppointmentForm('Dr. Ferdiriva Hamzah, SpM(K)')">Buat
+                                        Janji</button>
+                                </div>
+                                <table class="table table-bordered schedule-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Hari</th>
+                                            <th>Waktu</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Selasa</td>
+                                            <td>09:00 - 13:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kamis</td>
+                                            <td>09:00 - 13:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jumat</td>
+                                            <td>09:00 - 13:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    <!-- Doctor 2 -->
+                    <div class="col-md-4">
+                            <div class="card doctor-card">
+                                <img src="https://webp.jec.co.id/upload/Dr%20Laras%20Widayanti,%20SpM.jpg"
+                                    alt="Foto Dokter">
+                                <div class="doctor-info">
+                                    <h5 class="card-title tblue">Dr. Laras Widayanti, SpM</h5>
+                                    <p class="card-text">Cataract , LASIK , Cornea , SMILE</p>
+                                </div>
+                                <div class="doctor-actions">
+                                    <button class="btn btn-secondary" onclick="toggleSchedule(this)">Lihat
+                                        Jadwal</button>
+                                    <button class="btn btn-primary"
+                                        onclick="openAppointmentForm('Dr. Laras Widayanti, SpM')">Buat Janji</button>
+                                </div>
+                                <table class="table table-bordered schedule-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Hari</th>
+                                            <th>Waktu</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Selasa</td>
+                                            <td>13:00 - 19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rabu</td>
+                                            <td>13:00 - 19:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                
+
+                    <!-- Doctor 3 -->
+                <div class="col-md-4">
+                        <div class="card doctor-card">
+                            <img src="https://webp.jec.co.id/upload/Dr.%20Martin%20Hertanto,%20SpM-dee8005654.jpg"
+                                alt="Foto Dokter">
+                            <div class="doctor-info">
+                                <h5 class="card-title tblue">Dr. Martin Hertanto, SpM</h5>
+                                <p class="card-text">Cataract , Vitreoretina , Medical Retina</p>
+                            </div>
+                            <div class="doctor-actions">
+                                <button class="btn btn-secondary" onclick="toggleSchedule(this)">Lihat Jadwal</button>
+                                <button class="btn btn-primary"
+                                    onclick="openAppointmentForm('Dr. Martin Hertanto, SpM')">Buat Janji</button>
+                            </div>
+                            <table class="table table-bordered schedule-table">
+                                <thead>
+                                    <tr>
+                                        <th>Hari</th>
+                                        <th>Waktu</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Senin</td>
+                                        <td>09:00 - 16:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Selasa</td>
+                                        <td>09:00 - 16:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rabu</td>
+                                        <td>09:00 - 16:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+</div></div>
+
+<div style="padding-bottom: 10vh" class="read-more-section">
+                <a href="caridokter.html">Read More</a>
+            </div>
+</div>
+
+<!-- Popup Buat Janji -->
+        <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="appointmentModalLabel">Buat Janji</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="appointmentForm">
+                            <div class="mb-3">
+                                <label for="doctorName" class="form-label">Dokter</label>
+                                <input type="text" id="doctorName" class="form-control" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label for="patientName" class="form-label">Nama Pasien</label>
+                                <input type="text" id="patientName" class="form-control"
+                                    placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="appointmentDate" class="form-label">Tanggal Janji</label>
+                                <input type="date" id="appointmentDate" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="notes" class="form-label">Catatan</label>
+                                <textarea id="notes" class="form-control" rows="3"
+                                    placeholder="Catatan tambahan (opsional)"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Section Informasi -->
+            <div class="col-md-3">
+                <h5>Informasi</h5>
+                <ul class="list-unstyled">
+                    <li><a class="ratakiri" href="caridokter.html">Dokter JEC</a></li>
+                    <li><a class="ratakiri" href="#">Kondisi Mata</a></li>
+                    <li><a class="ratakiri" href="#">Fasilitas</a></li>
+                    <li><a class="ratakiri" href="#">Karir</a></li>
+                    <li><a class="ratakiri" href="#">Whistleblowing</a></li>
+                    <li><a class="ratakiri" href="#">E-Book</a></li>
+                    <li><a class="ratakiri" href="https://id.wikipedia.org/wiki/Rumah_Sakit_Mata_JEC">Wikipedia</a></li>
+                </ul>
+            </div>
+
+            <!-- Section Kontak JEC -->
+            <div class="col-md-3">
+                <h5>Kontak JEC</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-telephone"></i><a href="tel:08041221000"> 0804-122-1000</a></li>
+                    <li><i class="bi bi-whatsapp"></i><a
+                            href="https://api.whatsapp.com/send/?phone=6287729221000&text&app_absent=0">
+                            0877-2922-1000</a></li>
+                    <li><i class="bi bi-envelope"></i><a href="mailto:care@jec.co.id"> care@jec.co.id</a></li>
+                </ul>
+            </div>
+
+            <!-- Section Sosial Media -->
+            <div class="col-md-3">
+                <h5>Sosial Media</h5>
+                <ul class="list-unstyled d-flex">
+                    <li class="me-3"><a href="https://www.instagram.com/JECEyeHospital/"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="me-3"><a href="https://twitter.com/JECEyeHospital"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="me-3"><a href="https://facebook.com/JECEyeHospital"><i
+                                class="bi bi-facebook"></i></a></li>
+                    <li class="me-3"><a href="https://www.youtube.com/channel/UCXnkNIvwtDIX9uZbo0g5kCg"><i
+                                class="bi bi-youtube"></i></a></li>
+                    <li class="me-3"><a href="https://www.tiktok.com/@jeceyehospital"><i
+                                class="bi bi-tiktok"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Section Download Aplikasi -->
+            <div class="col-md-3">
+                <h5>Download Aplikasi</h5>
+                <ul class="list-unstyled d-flex">
+                    <a href="https://apps.apple.com/gy/app/jec-eye-hospitals-and-clinics/id925423433">
+                        <img src="https://jec.co.id/assets/img/icon/apple-download.png" alt="App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.jec.android&pli=1">
+                        <img src="https://jec.co.id/assets/img/icon/PLAY-STORE.png" alt="Play Store" class="mb-2">
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footercopy">
+        <hr style="opacity: 50%;">
+        <h6>Copyright &copy; 2024. All Rights Reserved</h6>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    function toggleSchedule(button) {
+        const scheduleTable = button.parentElement.parentElement.querySelector('.schedule-table');
+        if (scheduleTable.style.display === "none" || scheduleTable.style.display === "") {
+            scheduleTable.style.display = "table";
+            button.textContent = "Sembunyikan Jadwal";
+        } else {
+            scheduleTable.style.display = "none";
+            button.textContent = "Lihat Jadwal";
+        }
+    }
+
+    function openAppointmentForm(doctorName) {
+        document.getElementById('doctorName').value = doctorName;
+        const appointmentModal = new bootstrap.Modal(document.getElementById('appointmentModal'));
+        appointmentModal.show();
+    }
+
+    document.getElementById('appointmentForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const doctorName = document.getElementById('doctorName').value;
+        const patientName = document.getElementById('patientName').value;
+        const appointmentDate = document.getElementById('appointmentDate').value;
+        const notes = document.getElementById('notes').value;
+
+        const appointmentData = {
+            doctorName,
+            patientName,
+            appointmentDate,
+            notes
+        };
+
+        localStorage.setItem('appointmentData', JSON.stringify(appointmentData));
+        alert('Janji berhasil disimpan!');
+        const appointmentModal = bootstrap.Modal.getInstance(document.getElementById('appointmentModal'));
+        appointmentModal.hide();
+    });
+</script>
+
+</body>
+
+</html>
+
